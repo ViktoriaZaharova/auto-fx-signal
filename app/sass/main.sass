@@ -213,6 +213,13 @@ h2
     height: 16px
     margin: 0 9px 0 0
 
+.btn-border
+  border: 2px solid #fff
+    radius: 8px
+  color: #fff
+  &:hover
+    color: $accent
+    background: #fff
 
 .btn-icon
   display: flex
@@ -1058,6 +1065,176 @@ footer
   font-size: 14px
   .mail, .phone
     font-size: 18px
+
+//authorization
+.authorisation-section
+  background: url("../img/bg-6.jpg") no-repeat center
+    size: cover
+  height: 100vh
+  .container
+    height: 100%
+  .logo
+    margin: 23px 0 0
+  h1
+    text-align: center
+    margin: 0 auto
+    font-size: 32px
+
+.authorisation-content
+  position: relative
+  width: 60%
+  padding: 66px 20px 68px 150px
+  &:before
+    content: ''
+    position: absolute
+    height: 100%
+    left: 0
+    top: 0
+    width: 1400px
+    background: #fff
+  >*
+    position: relative
+    z-index: 1
+  .consent
+    max-width: none
+    color: #484848
+    font-size: 14px
+    margin: 20px 0 0
+
+.authorisation-box
+  width: 40%
+  color: #fff
+  .box-text
+    margin: 166px auto 0
+    text-align: center
+    max-width: 350px
+    width: 100%
+    p
+      margin: 24px auto
+  h3
+    font-size: 24px
+    font-weight: bold
+    a
+      display: inline
+  .btn
+    margin: 0 auto
+
+.social-box
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  color: #484848
+  font-size: 14px
+  margin: 20px auto
+
+.list-social-box
+  margin: 16px auto 18px
+  display: flex
+  align-items: center
+  justify-content: center
+  li
+    margin: 0 20px 0 0
+    &:last-child
+      margin: 0
+    a
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      overflow: hidden
+
+.form-authorization
+  max-width: 360px
+  width: 100%
+  margin: 0 auto
+  input
+    height: 65px
+    padding: 0 22px
+    border: solid 2px #d2dade
+      radius: 5px
+    &::placeholder
+      color: #a1a1a1
+
+  label
+    position: relative
+    margin: 0 0 13px
+  button
+    max-width: none
+    margin: 17px auto 0
+  .line-wrapper
+    margin: 15px auto 20px
+  .checkbox
+    margin: 0
+
+.input-icon
+  position: absolute
+  right: 19px
+  top: 50%
+  transform: translate(0,-50%)
+
+.btn-view
+  width: 20px
+  height: 23px
+  fill: #d2dade
+
+.line-wrapper
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  font-size: 14px
+
+.color-grey
+  color: #6d6d6d
+
+.text-decoration
+  text-decoration: underline
+
+.checkbox-inp
+  display: none
+
+.checkbox
+  margin: 0
+  display: flex
+  align-items: center
+  color: #6d6d6d
+  font-size: 14px
+
+.checkbox-custom
+  border-radius: 2px
+  border: solid 2px #d2dade
+  width: 20px
+  height: 20px
+  min-width: 20px
+  margin: 0 9px 0 0
+  cursor: pointer
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    width: 100%
+    height: 100%
+    background: url("../img/tick.svg") no-repeat center
+      size: cover
+    opacity: 0
+    transition: .3s ease
+
+.checkbox-inp:checked + .checkbox-custom
+  &:before
+    opacity: 1
+
+.registration-section
+  .authorisation-box
+    .btn
+      max-width: 185px
+      margin: 22px auto
+
+.color-white
+  color: #fff
 
 @import "media"
 // Всегда в конце
