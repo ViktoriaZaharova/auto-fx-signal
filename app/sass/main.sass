@@ -1236,5 +1236,184 @@ footer
 .color-white
   color: #fff
 
+//cabinet page
+.cabinet
+  background: $blue
+  h1
+    font-size: 24px
+    font-weight: bold
+    margin: 0 0 21px
+    color: #010101
+
+.sidebar
+  width: 292px
+  color: #fff
+  padding: 10px 13px 40px 0
+
+
+.time-box
+  text-align: center
+  margin: 42px 0 42px
+  p
+    font-weight: 600
+
+.time
+  margin: 18px 0 13px
+  line-height: 0.5
+  font-size: 36px
+  font-weight: bold
+
+.profile-box
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  &__avatar
+    margin: 0 auto 15px
+    width: 147px
+    height: 147px
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+.box-text-data
+  text-align: center
+  font-size: 14px
+  margin: 33px auto 46px
+
+
+.menu-sidebar__links
+  width: 100%
+  display: flex
+  align-items: center
+  color: #fff
+  font-size: 14px
+  &:hover
+    font-weight: 800
+
+.menu-sidebar__links-icon
+  margin: 0 13px 0 0
+  width: 24px
+  height: 25px
+
+.menu-sidebar
+  li
+    margin: 0 0 35px
+    &:last-child
+      margin: 0
+
+.fill-white
+  fill: #fff
+
+.font-bold
+  font-weight: 800
+
+.cabinet-content
+  width: calc(100% - 292px)
+  position: relative
+
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    background: #ffffff
+    border-radius: 5px 0 0 10px
+    width: 1400px
+
+.cabinet-content__wrap
+  width: 100%
+  height: 100%
+  position: relative
+  padding: 0 0 0 67px
+
+.cabinet-header
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  flex-wrap: wrap
+  margin: 0 0 49px
+
+.cabinet-header__links
+  fill: #646464
+  display: flex
+  align-items: center
+  justify-content: center
+
+.links-exit
+  width: 13px
+  height: 15px
+  margin: 0 21px 0 18px
+
+.links-notification
+  width: 11px
+  height: 15px
+
+
+.links-mail
+  width: 15px
+  height: 10px
+  margin: 0 20px 0 0
+
+.login-links
+  display: flex
+  align-items: center
+  color: #0a0a0a
+  font-size: 10px
+  font-family: 'Montserrat', sans-serif
+
+.login-links-icon
+  margin: 0 0 0 8px
+  border-radius: 10px
+  background-color: #c72a20
+  width: 26px
+  height: 26px
+  color: #fff
+  font-size: 13px
+  font-weight: 900
+  letter-spacing: 0.78px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.title-description
+  color: #515151
+  font-size: 14px
+  margin: 0 0 46px
+
+.form-cabinet
+  h3
+    margin: 0 0 22px
+    width: 100%
+    font-size: 18px
+    font-weight: bold
+    color: #0a0a0a
+  button
+    margin: 0 auto
+    box-shadow: none
+    max-width: 311px
+  label
+    margin: 0 0 30px
+  textarea
+    height: 128px
+
+.form-group
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
+  label
+    width: 30.5%
+
+
 @import "media"
 // Всегда в конце

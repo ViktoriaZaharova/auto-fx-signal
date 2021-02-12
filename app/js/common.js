@@ -47,6 +47,22 @@ accordeon();
 // mask phone
 $('[name="phone"]').mask('+7(999) 999-99-99');
 
+// time
+function clock() {
+   let d = new Date();
+   let hrs = d.getHours();
+   let min = d.getMinutes();
+   let sec = d.getSeconds();
+
+   if (hrs <= 9) hrs="0" + hrs;
+   if (min <=9 ) min="0" + min;
+   if (sec <= 9) sec="0" + sec;
+
+   $(".time").html(hrs + ":" + min + ":" + sec);
+}
+setInterval("clock()",1000);
+
+
 
 // timer
 function getTimeRemaining(endtime) {
