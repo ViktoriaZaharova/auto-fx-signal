@@ -47,6 +47,15 @@ accordeon();
 // mask phone
 $('[name="phone"]').mask('+7(999) 999-99-99');
 
+// mobile menu
+$('.btn-burger').on('click', function () {
+   $('.mobile-menu').fadeToggle();
+});
+
+$('.btn-close').on('click', function () {
+   $('.mobile-menu').fadeOut();
+});
+
 // time
 function clock() {
    let d = new Date();
@@ -61,7 +70,6 @@ function clock() {
    $(".time").html(hrs + ":" + min + ":" + sec);
 }
 setInterval("clock()",1000);
-
 
 
 // timer

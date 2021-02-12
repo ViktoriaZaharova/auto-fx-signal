@@ -107,8 +107,10 @@ input, textarea, select
   padding: 0 20px
   color: #ced6da
   font-size: 14px
+
   &::placeholder
     color: #ced6da
+
   &:hover, &:focus
     outline: none
 
@@ -140,9 +142,9 @@ button
   color: #969696
   max-width: 250px
   width: 100%
+
   a
     display: inline
-
 
 
 h1
@@ -185,8 +187,10 @@ h2
 .btn-blue
   background: $blue
   color: #fff
+
   .svg-icon
     fill: #fff
+
   &:hover
     background: $accent
     color: #fff
@@ -195,6 +199,7 @@ h2
   background: $accent
   color: #fff
   box-shadow: 0 3px 0 0 #de6e00
+
   &:hover
     box-shadow: 0 -3px 0 0 $accent
     background: #de6e00
@@ -208,6 +213,7 @@ h2
   border-radius: 12.5px
   margin: 0 20px
   padding: 0 15px 0 12px
+
   .btn-icon
     width: 14px
     height: 16px
@@ -217,6 +223,7 @@ h2
   border: 2px solid #fff
     radius: 8px
   color: #fff
+
   &:hover
     color: $accent
     background: #fff
@@ -249,15 +256,20 @@ footer
 .list-social
   display: flex
   align-items: center
+
   li
     margin: 0 11px 0 0
+
     &:last-child
       margin: 0
+
     a
       width: 25px
       height: 25px
+
     .svg-icon
       fill: #e4e6ee
+
   .link-telegram
     .svg-icon
       fill: $header
@@ -276,6 +288,7 @@ header
   top: 0
   width: 100%
   z-index: 2
+
   .logo
     margin: 0 auto 0 0
 
@@ -283,6 +296,7 @@ header
   background: $header
   color: #ffffff
   padding: 11px 0
+
   .container
     align-items: center
     justify-content: space-between
@@ -293,10 +307,13 @@ header
   flex-wrap: wrap
   font-size: 14px
   margin: 0 auto
+
   li
     margin: 0 45px 0 0
+
     &:last-child
       margin: 0
+
     a
       color: #fff
 
@@ -309,6 +326,7 @@ header
 .box-contacts
   font-size: 11px
   margin: 0 65px 0 0
+
   &:last-child
     margin: 0
 
@@ -330,13 +348,16 @@ header
   font-weight: 500
   display: flex
   align-items: center
+
   .btn-icon
     margin: 0 9px 0 0
     width: 12px
     height: 14px
     fill: $blue
+
   &:hover
     color: #fff
+
     .btn-icon
       fill: #fff
 
@@ -350,6 +371,7 @@ header
   text-transform: uppercase
   font-size: 14px
   cursor: pointer
+
   .icon-arrow
     fill: $blue
     width: 8px
@@ -360,7 +382,7 @@ header
   position: absolute
   top: 100%
   left: 50%
-  transform: translate(-50%,0)
+  transform: translate(-50%, 0)
   z-index: 2
   background: $header
   padding: 20px
@@ -369,12 +391,16 @@ header
 .dropdown-menu
   text-transform: uppercase
   font-size: 14px
+
   li
     margin: 0 0 10px
+
     &:last-child
       margin: 0
+
     a
       color: #fff
+
       &:hover
         color: $accent
 
@@ -388,6 +414,7 @@ main
   .container
     align-items: center
     justify-content: space-between
+
   .box-text
     margin: 25px 0 35px
     color: #e8e8e9
@@ -403,6 +430,7 @@ main
   align-items: center
   justify-content: center
   overflow: hidden
+
   img
     width: 100%
     height: 100%
@@ -413,7 +441,7 @@ main
   z-index: 1
   top: 50%
   left: 50%
-  transform: translate(-50%,-50%)
+  transform: translate(-50%, -50%)
   fill: #fff
   width: 53px
   height: 63px
@@ -426,9 +454,11 @@ main
 .about
   color: $text
   padding: 119px 0 60px
+
   h2
     color: #000
     margin: 0 0 22px
+
   .row
     margin: 64px 0 0
 
@@ -445,6 +475,7 @@ main
   width: 33.3%
   line-height: 1.38
   font-size: 14px
+
   h3
     color: #000000
     margin: 0 0 10px
@@ -458,12 +489,15 @@ main
     width: 100px
     height: 100px
     transition: .3s ease
+
   &:hover
     .about-box__icon
       background: $blue
+
   &__body
     width: calc(100% - 100px)
     padding: 0 0 0 19px
+
     p
       max-width: 247px
 
@@ -472,8 +506,10 @@ main
   background: url("../img/bg2.png") no-repeat center
     size: cover
   padding: 216px 0 230px
+
   h2
     margin: 0 0 65px
+
   .container
     align-items: center
     justify-content: space-between
@@ -484,10 +520,12 @@ main
 
 .list-checkbox
   color: #515151
+
   li
     margin: 0 0 30px
     padding: 0 0 0 50px
     position: relative
+
     &:before
       content: ''
       position: absolute
@@ -497,6 +535,7 @@ main
       height: 22px
       background: url("../img/tick.svg") no-repeat center
         size: contain
+
     &:last-child
       margin: 0
 
@@ -509,17 +548,19 @@ main
   border-radius: 10px
   box-shadow: 0 22px 33.6px 12.4px rgba(136, 136, 136, 0.15)
   overflow: hidden
+
   .btn
     position: absolute
     z-index: 1
     left: 50%
     top: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
 
 
 //stages-word
 .stages-word
   padding: 123px 0 47px
+
   h2
     text-align: center
     margin: 0 auto 54px
@@ -535,6 +576,7 @@ main
   color: $text
   line-height: 1.29
   margin: 0 0 84px
+
   &__icon
     width: 100px
     height: 100px
@@ -546,13 +588,16 @@ main
     margin: 0 auto 16px
     border-radius: 20px
     box-shadow: 0 0 7.4px 0.6px rgba(136, 136, 136, 0.15)
+
   h3
     margin: 0 auto 15px
     font-weight: bold
     font-size: 18px
     color: #212121
+
   p
     max-width: 290px
+
   &:hover
     .stages-word-box__icon
       background: $accent
@@ -564,6 +609,7 @@ main
   padding: 160px 0 200px
   background: url("../img/bg3.png") no-repeat center
     size: cover
+
   .box-text
     margin: 29px 0 59px
 
@@ -575,20 +621,24 @@ main
   border-radius: 10px
   box-shadow: 5.7px -1.8px 28.7px 6.3px rgba(136, 136, 136, 0.15)
   overflow: hidden
+
   img
     width: 100%
 
 //tariffs
 .tariffs
   padding: 119px 0 109px
+
   .row
     align-items: stretch
     justify-content: center
+
   .box-text
     margin: 19px auto 60px
     max-width: 705px
     color: #515151
     text-align: center
+
   h2
     text-align: center
 
@@ -617,10 +667,12 @@ main
   width: 100%
   text-align: center
   color: #515151
+
   li
     padding: 16px 0
     border-bottom: 1px solid #dadada
     width: 100%
+
     &:last-child
       border: none
 
@@ -650,9 +702,11 @@ main
     size: cover
   padding: 190px 0 150px
   overflow: hidden
+
   h2
     text-align: center
     margin: 0 auto 75px
+
   .row
     position: relative
     align-items: center
@@ -661,7 +715,7 @@ main
   position: absolute
   right: 0
   top: 50%
-  transform: translate(0,-50%)
+  transform: translate(0, -50%)
   max-width: 1259px
   width: 100%
   display: flex
@@ -675,9 +729,11 @@ main
   color: #212121
   font-size: 18px
   font-weight: bold
+
   p
     max-width: 451px
     margin: 0 0 0 30px
+
   &:hover
     .to-start-box__icon
       background: $accent
@@ -696,6 +752,7 @@ main
 //.question
 .question
   padding: 117px 0
+
   h2
     text-align: center
     margin: 0 auto 50px
@@ -704,6 +761,7 @@ main
   border-bottom: 1px solid #d2dade
   width: 100%
   padding: 23px 0
+
   &:last-child
     border: none
 
@@ -716,6 +774,7 @@ main
   font-size: 14.5px
   font-weight: bold
   color: #0a0a0a
+
   .svg-icon
     width: 17px
     min-width: 17px
@@ -736,14 +795,17 @@ main
 //.reviews
 .reviews
   padding: 120px 0
+
   h2
     text-align: center
+
   .box-text
     margin: 19px auto 46px
     text-align: center
     max-width: 705px
     width: 100%
     color: #515151
+
   .btn
     margin: 58px auto 0
     box-shadow: none
@@ -756,6 +818,7 @@ main
   margin: 0 auto
   color: #515151
   padding: 23px 38px 24px 22px
+
   h3
     font-weight: bold
     color: #000
@@ -784,12 +847,15 @@ main
   width: 100%
   display: flex
   align-items: center
+
   li
     width: 24px
     height: 23px
     margin: 0 9px 0 0
+
     &:last-child
       margin: 0
+
     .svg-icon
       fill: #febf01
 
@@ -810,15 +876,19 @@ main
   justify-content: center
   padding: 20px
   transition: .3s ease
+
   svg
     fill: #cfcfcf
     width: 100%
     height: 100%
     transition: .3s ease
+
   &:before
     display: none
+
   &:hover, &:focus
     opacity: 1
+
     svg
       fill: $accent
 
@@ -836,6 +906,7 @@ main
   align-items: center
   justify-content: center
   margin: 29px auto 0
+
   li
     width: 11px
     height: 11px
@@ -843,10 +914,13 @@ main
     background: #cfcfcf
     transition: .3s ease
     margin: 0 19px 0 0
+
     &:last-child
       margin: 0
+
     button
       display: none
+
   .slick-active
     background: $accent
 
@@ -857,9 +931,11 @@ main
     size: cover
   color: #ffffff
   overflow: hidden
+
   .btn
     box-shadow: none
     height: 71px
+
   .container
     align-items: center
     justify-content: space-between
@@ -869,6 +945,7 @@ main
   width: 100%
   position: relative
   z-index: 1
+
   .box-text
     margin: 34px 0 30px
     line-height: 1.38
@@ -921,6 +998,7 @@ main
   background: url("../img/bg5.png") no-repeat center
     size: cover
   margin: 0 0 13px
+
   .container
     align-items: center
 
@@ -941,7 +1019,7 @@ main
   display: flex
   align-items: flex-start
   margin: 0 0 25px
-  
+
 .countdown-number
   display: flex
   flex-direction: column
@@ -978,6 +1056,7 @@ main
   margin: 30px 0
   border: 1px solid $blue
     radius: 20px
+
   p
     position: relative
     padding: 0 20px
@@ -986,7 +1065,7 @@ main
     background: #f6fafc
     letter-spacing: 0.43px
     color: $blue
-    
+
 //footer
 .callback-form
   border-radius: 10px
@@ -994,11 +1073,13 @@ main
   max-width: 360px
   padding: 27px 25px 29px
   width: 100%
+
   h3
     text-align: center
     margin: 0 auto 22px
     color: #0a0a0a
     font-weight: bold
+
   button
     max-width: none
     box-shadow: none
@@ -1012,9 +1093,11 @@ footer
   .container
     align-items: flex-start
     justify-content: space-between
+
   .logo
     width: 245px
     max-width: none
+
     img
       width: 100%
 
@@ -1022,13 +1105,17 @@ footer
   display: flex
   align-items: center
   margin: 35px 0
+
   li
     margin: 0 10px 0 0
+
     &:last-child
       margin: 0
+
     a
       width: 20px
       height: 20px
+
       .svg-icon
         fill: #f6fafc
 
@@ -1037,32 +1124,40 @@ footer
   flex-direction: column
   align-items: flex-start
   margin: 0 0 40px
+
   li
     margin: 0 0 30px
+
     &:last-child
       margin: 0
 
 .footer-info
   max-width: 380px
   width: 100%
+
   h3
     margin: 0 0 22px
+
   .box-text
     font-size: 16px
     line-height: normal
 
 .footer-menu
   margin: 40px 0 140px
+
   li
     margin: 0 0 19px
+
     &:last-child
       margin: 0
+
     a
       color: #ffffff
 
 .contacts-item
   margin: 35px 0 0
   font-size: 14px
+
   .mail, .phone
     font-size: 18px
 
@@ -1071,10 +1166,13 @@ footer
   background: url("../img/bg-6.jpg") no-repeat center
     size: cover
   height: 100vh
+
   .container
     height: 100%
+
   .logo
     margin: 23px 0 0
+
   h1
     text-align: center
     margin: 0 auto
@@ -1084,6 +1182,7 @@ footer
   position: relative
   width: 60%
   padding: 66px 20px 68px 150px
+
   &:before
     content: ''
     position: absolute
@@ -1092,9 +1191,11 @@ footer
     top: 0
     width: 1400px
     background: #fff
-  >*
+
+  > *
     position: relative
     z-index: 1
+
   .consent
     max-width: none
     color: #484848
@@ -1104,18 +1205,23 @@ footer
 .authorisation-box
   width: 40%
   color: #fff
+
   .box-text
     margin: 166px auto 0
     text-align: center
     max-width: 350px
     width: 100%
+
     p
       margin: 24px auto
+
   h3
     font-size: 24px
     font-weight: bold
+
     a
       display: inline
+
   .btn
     margin: 0 auto
 
@@ -1133,10 +1239,13 @@ footer
   display: flex
   align-items: center
   justify-content: center
+
   li
     margin: 0 20px 0 0
+
     &:last-child
       margin: 0
+
     a
       width: 50px
       height: 50px
@@ -1147,22 +1256,27 @@ footer
   max-width: 360px
   width: 100%
   margin: 0 auto
+
   input
     height: 65px
     padding: 0 22px
     border: solid 2px #d2dade
       radius: 5px
+
     &::placeholder
       color: #a1a1a1
 
   label
     position: relative
     margin: 0 0 13px
+
   button
     max-width: none
     margin: 17px auto 0
+
   .line-wrapper
     margin: 15px auto 20px
+
   .checkbox
     margin: 0
 
@@ -1170,7 +1284,7 @@ footer
   position: absolute
   right: 19px
   top: 50%
-  transform: translate(0,-50%)
+  transform: translate(0, -50%)
 
 .btn-view
   width: 20px
@@ -1210,12 +1324,13 @@ footer
   margin: 0 9px 0 0
   cursor: pointer
   position: relative
+
   &:before
     content: ''
     position: absolute
     left: 50%
     top: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
     width: 11px
     height: 8px
     background: url("../img/checkbox.svg") no-repeat center
@@ -1239,6 +1354,7 @@ footer
 //cabinet page
 .cabinet
   background: $blue
+
   h1
     font-size: 24px
     font-weight: bold
@@ -1254,6 +1370,7 @@ footer
 .time-box
   text-align: center
   margin: 42px 0 42px
+
   p
     font-weight: 600
 
@@ -1268,6 +1385,7 @@ footer
   flex-direction: column
   align-items: center
   text-align: center
+
   &__avatar
     margin: 0 auto 15px
     width: 147px
@@ -1277,6 +1395,7 @@ footer
     align-items: center
     justify-content: center
     overflow: hidden
+
     img
       width: 100%
       height: 100%
@@ -1294,6 +1413,7 @@ footer
   align-items: center
   color: #fff
   font-size: 14px
+
   &:hover
     font-weight: 800
 
@@ -1305,6 +1425,7 @@ footer
 .menu-sidebar
   li
     margin: 0 0 35px
+
     &:last-child
       margin: 0
 
@@ -1396,12 +1517,15 @@ footer
     font-size: 18px
     font-weight: bold
     color: #0a0a0a
+
   button
     margin: 0 auto
     box-shadow: none
     max-width: 311px
+
   label
     margin: 0 0 30px
+
   textarea
     height: 128px
 
@@ -1411,6 +1535,7 @@ footer
   align-items: flex-start
   flex-wrap: wrap
   justify-content: space-between
+
   label
     width: 30.5%
 
@@ -1420,10 +1545,13 @@ footer
   align-items: stretch
   flex-wrap: wrap
   margin: 20px 0 0
+
   li
     margin: 0 30px 19px 0
+
     &:last-child
       margin: 0 0 19px
+
     a
       width: 100px
       height: 100px
@@ -1436,6 +1564,7 @@ footer
       border-radius: 20px
       background: $blue
       box-shadow: 0 3px 0 0 #0f409c
+
     .active
       background: $accent
       box-shadow: 0 3px 0 0 #de6e00
@@ -1447,12 +1576,14 @@ footer
 .box-analytics
   margin: 60px 0 0
   width: 100%
+
   h3
     font-size: 24px
     font-weight: bold
     color: #010101
     margin: 0 0 15px
     width: 100%
+
   h4
     margin: 20px 0 10px
     width: 100%
@@ -1462,7 +1593,7 @@ footer
 .table-wrapper
   width: 100%
   margin: 29px 0 0
-  //overflow-x: auto
+//overflow-x: auto
 
 .table-scroll
   width: 100%
@@ -1472,11 +1603,14 @@ footer
   background: #ffffff
   padding: 0 27px 0 18px
   max-height: 397px
+
   &::-webkit-scrollbar-thumb
     background: #d3dadd
     border-radius: 5px
+
   &::-webkit-scrollbar
     width: 10px
+
   &::-webkit-scrollbar-track
     background: #fcfafa
     border-radius: 5px
@@ -1514,16 +1648,20 @@ th
 .table-daily
   td, th
     width: 14%
+
     &:first-child
       width: 17%
+
     &:last-child
       width: 50%
+
     &:nth-child(2)
       width: 21%
 
 .table-signal
   td, th
     width: 14%
+
     &:nth-child(2)
       width: 16%
 
@@ -1531,6 +1669,7 @@ th
   margin: 31px 0 0
   font-size: 14px
   color: #727272
+
   a
     display: inline
     text-decoration: underline
@@ -1539,11 +1678,12 @@ th
 .cabinet-video
   .description-plane
     margin: 0 0 39px
+
   h1
     margin: 0 0 15px
+
   .row
     margin: 0 -15px
-
 
 
 .col-3
@@ -1555,11 +1695,13 @@ th
   width: 100%
   color: #515151
   font-size: 14px
+
   h3
     color: #030303
     font-size: 18px
     font-weight: bold
     margin: 0 0 11px
+
   &__body
     padding: 14px 0 0
 
@@ -1569,10 +1711,12 @@ th
     height: 170px
     border-radius: 10px
     overflow: hidden
+
     img
       width: 100%
       height: 100%
       object-fit: cover
+
   .btn-play
     width: 28px
     height: 31px
@@ -1606,20 +1750,25 @@ th
 .form-cabinet-edit
   max-width: 311px
   width: 100%
+
   button
     max-width: none
+
   h3
     margin: 0 0 14px
     font-size: 18px
     font-weight: bold
     color: #010101
+
   input
     height: 60px
+
   label
     margin: 0 0 15px
 
 .label-date
   position: relative
+
   .input-icon
     width: 20px
     height: 18px
@@ -1651,11 +1800,89 @@ th
 
 .box-way
   margin: 63px 0 0
+
   .checkbox
     margin: 0 0 20px
     font-weight: bold
     font-size: 14px
     color: #010101
+
+.btn-burger
+  width: 30px
+  height: 22px
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  cursor: pointer
+
+  span
+    display: block
+    width: 100%
+    height: 2px
+    border-radius: 2px
+    background: #fff
+
+.mobile-menu
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  max-width: 280px
+  height: 100%
+  overflow-y: auto
+  padding: 30px
+  background: $header
+  color: #fff
+  z-index: 3
+  display: none
+
+  .menu
+    flex-direction: column
+    align-items: flex-start
+    margin: 20px 0
+
+    li
+      margin: 0 0 10px
+
+  .btn-entrance
+    margin: 0 10px 0 0
+
+  .links-registration
+    padding: 0 0 0 10px
+
+  .row
+    align-items: center
+    margin: 0 0 20px
+
+  .box-contacts
+    margin: 0 0 20px
+
+  .phone
+    font-size: 16px
+
+
+.btn-close
+  position: relative
+  width: 20px
+  height: 20px
+  margin: 0 0 0 auto
+  cursor: pointer
+
+  &:before, &:after
+    content: ''
+    position: absolute
+    left: 10px
+    top: 0
+    width: 1px
+    height: 100%
+    background: #fff
+
+  &:before
+    transform: rotate(45deg)
+
+  &:after
+    transform: rotate(135deg)
 
 @import "media"
 // Всегда в конце
