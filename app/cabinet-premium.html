@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>AUTO FX SIGNAL</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="content">
+
+    <div class="cabinet">
+      <div class="container">
+        <div class="sidebar">
+          <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+          <div class="time-box">
+            <p>Серверное время (GMT +1)</p>
+
+            <div class="time"></div>
+
+            <div class="date">03.02.2021</div>
+          </div>
+
+          <div class="profile-box">
+            <div class="profile-box__avatar"><img src="img/admin.jpg" alt=""></div>
+            <div class="profile-box__name">Loginname123</div>
+          </div>
+          <div class="box-text-data">
+            <p>Данные с задержкой 8 часов.</p>
+            <p>Подпишитесь или активируйте демо</p>
+          </div>
+
+          <ul class="menu-sidebar">
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu1"></use></svg></span><span class="menu-sidebar__links-text">Купить/продлить подписку</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#icon-menu2"></use></svg></span><span class="menu-sidebar__links-text">План "Базовый"</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#icon-menu3"></use></svg></span><span class="menu-sidebar__links-text">План "Премиум"</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links font-bold">
+                <span class="menu-sidebar__links-icon"><img src="img/premium-quality.svg" alt=""></span><span
+                  class="menu-sidebar__links-text">План "Мега"</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#icon-menu5"></use></svg></span><span class="menu-sidebar__links-text">Активировать Демо-период</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu6"></use></svg></span><span class="menu-sidebar__links-text">Статистика системы</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu7"></use></svg></span><span class="menu-sidebar__links-text">Обучающие видео по системе</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu8"></use></svg></span><span class="menu-sidebar__links-text">Партнерская программа</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu9"></use></svg></span><span class="menu-sidebar__links-text">Привязка Telegram</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu10"></use></svg></span><span class="menu-sidebar__links-text">Аренда торгового робота</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#icon-menu11"></use></svg></span><span class="menu-sidebar__links-text">Редактировать профиль/настройки</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-sidebar__links">
+                <span class="menu-sidebar__links-icon"><svg class="svg-icon fill-white"><use
+                    xlink:href="img/sprite.svg#support"></use></svg></span><span class="menu-sidebar__links-text">Служба поддержки</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cabinet-content">
+          <div class="cabinet-content__wrap">
+            <div class="cabinet-header">
+              <a href="#" class="cabinet-header__links links-mail">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#mail"></use>
+                </svg>
+              </a>
+              <a href="#" class="cabinet-header__links links-notification">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#notification"></use>
+                </svg>
+              </a>
+              <a href="#" class="cabinet-header__links links-exit">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#login"></use>
+                </svg>
+              </a>
+              <a href="#" class="login-links">
+                <span class="login-links-name">loginname123</span>
+                <span class="login-links-icon">L</span>
+              </a>
+            </div>
+
+            <h1>План “Премиум”</h1>
+
+            <ul class="list-currency">
+              <li><a href="#" class="active">EURUSD</a></li>
+            </ul>
+
+
+            <div class="box-analytics box-analytics-premium">
+              <h3>Monitor EURUSD</h3>
+              <div class="table-wrapper">
+
+                <div class="table-scroll table-no-scroll">
+                  <h4>Parser</h4>
+                  <table class="table table-monitor">
+                    <thead>
+                    <tr>
+                      <th></th>
+                      <th>16 H</th>
+                      <th>12 H</th>
+                      <th>8 H</th>
+                      <th>4 H</th>
+                      <th>2 H</th>
+                      <th>1 H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>Total</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Total Open</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Open Sell</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Open Buy</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Total Close</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Close Sell</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Lever Open Buy</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    <tr>
+                      <td>Lever Open Sell</td>
+                      <td>213</td>
+                      <td>546</td>
+                      <td>213</td>
+                      <td>464</td>
+                      <td>135</td>
+                      <td>321</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="table-text">
+                  <p>Подробнее о том, как пользоваться данными вы можете посмотреть в наших видео уроках с автором и разработчиком данной системы, а также прочитать в нашей презентации  <a href="#" class="color-blue">тут</a>.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="box-analytics">
+              <h3>Ежедневный анализ рынка от нашего эксперта</h3>
+              <div class="table-wrapper">
+                <div class="table-scroll">
+                  <table class="table table-daily">
+                    <thead>
+                    <tr>
+                      <th>Время</th>
+                      <th>Цена во время
+                        прогноза
+                      </th>
+                      <th>Валютная
+                        пара
+                      </th>
+                      <th>Коментарий эксперта</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.3933</td>
+                      <td class="td-currency">eurusd</td>
+                      <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et  </p>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-analytics box-analytics-premium">
+              <h3>Уровни поддержки/сопротивления краткосрочные и среднесрочные.</h3>
+              <div class="table-data">Данные в этой таблице без задержки даже без подписки.</div>
+              <div class="table-wrapper">
+
+                <div class="table-scroll table-no-scroll">
+                  <table class="table table-levels">
+                    <thead>
+                    <tr>
+                      <th></th>
+                      <th>TrendVerh</th>
+                      <th>KorVerh</th>
+                      <th>TrendNiz</th>
+                      <th>KorNiz</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>m15</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                    </tr>
+                    <tr>
+                      <td>m30</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                    </tr>
+                    <tr>
+                      <td>h1</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                    </tr>
+                    <tr>
+                      <td>h4</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                      <td>1.208</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-analytics">
+              <h3>Активный сигнал робота:</h3>
+              <div class="table-wrapper">
+                <div class="table-scroll">
+                  <table class="table table-signal">
+                    <thead>
+                    <tr>
+                      <th>Валютная
+                        пара</th>
+                      <th>Направление</th>
+                      <th>Дата <br>
+                        открытия</th>
+                      <th>Цена
+                        открытия</th>
+                      <th>Уровень Sl</th>
+                      <th>Уровень TP</th>
+                      <th>Текущий
+                        результат</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    <tr>
+                      <td class="td-currency">eurusd</td>
+                      <td class="td-currency">BUY</td>
+                      <td>
+                        <p>29.01.2021</p>
+                        <p>08:30:95</p>
+                      </td>
+                      <td>1.2043</td>
+                      <td>1.2205</td>
+                      <td>1.1940</td>
+                      <td>64</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="table-text">
+                <p>История закрытых сделок, а также кумулятивный график прибыли доступен <a href="#" download="#" class="color-blue">здесь
+                  <img src="img/pdf.svg" alt="" class="links-icon"></a></p>
+              </div>
+            </div>
+
+            <div class="box-analytics box-analytics-premium">
+              <div class="table-wrapper">
+
+                <div class="table-scroll table-no-scroll">
+                  <h4>Signals</h4>
+                  <table class="table table-signal">
+                    <thead>
+                    <tr>
+                      <th></th>
+                      <th>30 H</th>
+                      <th>24 H</th>
+                      <th>16 H</th>
+                      <th>12 H</th>
+                      <th>8 H</th>
+                      <th>4 H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>Clasic</td>
+                      <td>sell: 1.09</td>
+                      <td>sell: 1.09</td>
+                      <td>sell: 1.09</td>
+                      <td>sell: 1.09</td>
+                      <td>sell: 1.09</td>
+                      <td>sell: 1.09</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
