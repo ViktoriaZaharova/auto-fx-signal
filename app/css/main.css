@@ -2091,7 +2091,11 @@ th {
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  .advantages-img {
+    width: 500px; }
+  .advantages-content {
+    width: calc(100% - 500px);
+    padding: 0 30px 0 0; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -2104,6 +2108,21 @@ th {
     height: 280px; }
   .main-content {
     padding: 0 20px 0 0;
+    width: calc(100% - 400px); }
+  .about-box {
+    width: 50%;
+    margin: 0 0 30px; }
+  .about .row {
+    margin: 30px 0 0; }
+  .about {
+    padding: 64px 0 60px; }
+    .about h2 {
+      text-align: center; }
+  .advantages {
+    padding: 138px 0 70px; }
+  .advantages-img {
+    width: 400px; }
+  .advantages-content {
     width: calc(100% - 400px); } }
 
 /* Small Devices, Tablets */
@@ -2127,7 +2146,8 @@ th {
     .header-bottom .box-contacts {
       display: none; }
   main {
-    padding: 109px 0 80px; }
+    padding: 109px 0 80px;
+    background-position: 20% top; }
     main .box-text {
       margin: 29px auto 33px; }
   .main-content {
@@ -2140,9 +2160,58 @@ th {
   .main-video {
     width: 374.3px;
     height: 235.3px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  h2 {
+    font-size: 28px; }
+  .about h2 {
+    margin: 0 0 36px; }
+  .advantages-content {
+    width: 100%;
+    padding: 0; }
+  .advantages-img {
+    width: 100%;
+    max-width: 376px;
+    margin: 30px auto 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    overflow: visible; }
+    .advantages-img img {
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 22px 33.6px 12.4px rgba(136, 136, 136, 0.15);
+              box-shadow: 0px 22px 33.6px 12.4px rgba(136, 136, 136, 0.15); }
+    .advantages-img .btn {
+      position: relative;
+      margin: 33px auto 70px;
+      -webkit-transform: none;
+              transform: none;
+      top: 0;
+      left: 0; }
+  .list-checkbox li {
+    margin: 0 0 20px; }
+  .advantages {
+    background-position: center top; }
+    .advantages h2 {
+      margin: 0 0 32px;
+      text-align: center; }
+  .stages-word {
+    padding: 0; }
+    .stages-word h2 {
+      margin: 0 auto 31px; }
+  .stages-word-box {
+    width: 50%;
+    margin: 0 0 32px; } }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .about-box {
+    width: 100%; }
+  .about-box__body p {
+    max-width: none; }
+  .stages-word-box {
+    width: 100%; } }
+
 @media only screen and (max-width: 480px) {
   header .logo {
     max-width: 107px; } }
