@@ -49,6 +49,9 @@
   .footer-info
     max-width: 310px
 
+  .form-cabinet-edit
+    max-width: 280px
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   .menu li
@@ -117,7 +120,7 @@
     padding: 65px 0
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 940px)
+@media only screen and (max-width: 950px)
   .sales-content
     padding: 0
     width: 100%
@@ -168,6 +171,7 @@
     margin: 31px 0 0
 
   .table-wrapper
+    margin: 0
     overflow-x: auto
     padding: 15px 10px 22px 15px
     &::-webkit-scrollbar-thumb:horizontal
@@ -183,6 +187,19 @@
 
   .table-scroll
     min-width: 800px
+
+  .cabinet-row
+    flex-direction: column
+    align-items: flex-start
+
+  .form-cabinet-edit
+    margin: 0 0 33px
+    max-width: 376px
+    &:last-child
+      margin: 0
+
+  .box-way
+    margin: 36px 0 0
 
 @media only screen and (max-width: 810px)
   .header-top
@@ -372,6 +389,9 @@
     top: 0
     left: 0
 
+  .btn-close-sidebar
+    display: block
+
   .time-box
     margin: 19px auto 25px
 
@@ -406,6 +426,41 @@
   .box-analytics h3
     font-size: 18px
 
+  .video-box
+    margin: 0 0 19px
+    font-size: 12px
+    h3
+      font-size: 14px
+      margin: 0 0 8px
+
+  .video-box__body
+    padding: 11px 0 0
+
+  .cabinet-video .description-plane
+    margin: 0 0 32px
+
+  .cabinet-row
+    margin: 33px 0 0
+
+  .table-text
+    margin: 21px 0 0
+
+  .list-currency li
+    margin: 0 12px 10px 0
+    &:last-child
+      margin: 0 0 10px
+
+  .form-group
+    label
+      width: 100%
+      margin: 0 0 15px
+
+  .form-cabinet textarea
+    height: 173px
+
+  .form-cabinet label
+    margin: 0 0 15px
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px)
   .about-box
@@ -422,6 +477,13 @@
     align-content: flex-start
     .svg-icon
       margin: 9px 0 0 auto
+
+  .video-box__preview
+    height: 129px
+
+  .video-box .btn-play
+    width: 21px
+    height: 23px
 
 @media only screen and (max-width: 480px)
   header
@@ -450,11 +512,13 @@
     margin: 0 0 20px
 
   .title-description
-    margin: 0 0 35px
+    margin: 0 0 30px
 
   .box-subscribe-item
     padding: 25px 9px 19px 11px
 
+  .col-3
+    width: 50%
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px)
