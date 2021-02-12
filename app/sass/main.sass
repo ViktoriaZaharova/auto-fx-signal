@@ -1568,10 +1568,9 @@ footer
       border-radius: 20px
       background: $blue
       box-shadow: 0 3px 0 0 #0f409c
-
-    .active
-      background: $accent
-      box-shadow: 0 3px 0 0 #de6e00
+      &:hover
+        background: $accent
+        box-shadow: 0 3px 0 0 #de6e00
 
 .description-plane
   font-size: 14px
@@ -1887,6 +1886,144 @@ th
 
   &:after
     transform: rotate(135deg)
+
+//cabinet subscribe
+.box-subscribe
+  margin: 0 0 60px
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  &:last-child
+    margin: 0
+  h3
+    font-weight: bold
+    width: 100%
+    font-size: 18px
+    margin: 0 0 29px
+  .tariffs-box
+    margin: 0 0 50px
+    padding: 42px 33px 35px
+    border-radius: 15px
+    box-shadow: 0 0 18.9px 2.1px rgba(184, 192, 196, 0.27)
+    max-width: 247px
+    .price
+      font-size: 37px
+      margin: 20px auto 30px
+    .tariffs-box__name
+      height: 32px
+      font-size: 11px
+      max-width: 114px
+    .list-characteristics li
+      padding: 12px 0
+      font-size: 12px
+    .btn
+      margin: 24px auto 0
+      height: 46px
+      font-size: 12px
+  .table-wrapper
+    margin: 0
+
+.row-tariffs
+  justify-content: space-between
+
+.box-subscribe-item
+  background: #fff
+  box-shadow: 0 0 18.9px 2.1px rgba(184, 192, 196, 0.27)
+  border-radius: 10px
+  padding: 25px 29px 38px 26px
+
+.box-subscribe-item__footer
+  padding: 20px 0 0
+  border-top: 1px solid #b8c0c4
+  color: #7c7c7c
+  margin: 12px 0 0
+  strong
+    font-weight: bold
+    color: #000
+  a
+    display: inline
+
+.write-off
+  max-width: 330px
+
+.box-subscribe-item__head
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 0 0 4px
+  h4
+    font-weight: 800
+    color: #010101
+    letter-spacing: 0.24px
+
+.box-subscribe-item__package
+  background: $blue
+  color: #fff
+  margin: 0 20px 0 0
+  border-radius: 19.5px
+  padding: 10px 29px 10px 30px
+  font-weight: 800
+  letter-spacing: 0.24px
+
+.box-subscribe-item__body
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  color: #7c7c7c
+  .btn
+    max-width: 172px
+    box-shadow: none
+    height: 46px
+    font-size: 12px
+    padding: 0 29px
+
+
+.date-active
+  white-space: nowrap
+  margin: 0 52px 0 0
+
+.table-subscribe
+  td, th
+    &:first-child
+      width: 60%
+
+.btn-menu-cabinet
+  background: $blue
+  width: 30px
+  height: 30px
+  border-radius: 10px
+  padding: 8px
+  margin: 0 auto 0 0
+  cursor: pointer
+  display: none
+  align-items: center
+  justify-content: center
+  svg
+    fill: #fff
+
+.btn-close-sidebar
+  width: 20px
+  height: 20px
+  position: absolute
+  right: 10px
+  top: 10px
+  &:before, &:after
+    content: ''
+    position: absolute
+    left: 10px
+    top: 0
+    width: 1px
+    height: 100%
+    background: #fff
+
+  &:before
+    transform: rotate(45deg)
+
+  &:after
+    transform: rotate(135deg)
+
 
 @import "media"
 // Всегда в конце

@@ -70,6 +70,14 @@ $('.btn-close').on('click', function () {
    $('.mobile-menu').fadeOut();
 });
 
+$('.btn-menu-cabinet').on('click', function () {
+   $('.sidebar').fadeToggle();
+});
+
+$('.btn-close-sidebar').on('click', function () {
+   $('.sidebar').fadeOut();
+});
+
 // time
 function clock() {
    let d = new Date();
