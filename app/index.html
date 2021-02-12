@@ -18,7 +18,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -203,6 +204,22 @@
         </div>
       </div>
     </main>
+
+    <ul class="webTicker">
+      <li class="webTicker-item">
+        <a href="#modal-news" class="marquee-item open_modal">
+          <span>Строка с бегущим текстом для показа какого-нибудь важного объявления на сайте.</span>
+          <span class="date">12 февраля 2020</span>
+        </a>
+
+      </li>
+      <li class="webTicker-item">
+        <a href="#modal-news" class="marquee-item open_modal">
+          <span>Строка с бегущим текстом для показа какого-нибудь важного объявления на сайте.</span>
+          <span class="date">12 февраля 2020</span>
+        </a>
+      </li>
+    </ul>
 
     <section class="about">
       <div class="container">
@@ -904,7 +921,11 @@
         <div class="footer-info">
           <h3>Юридическая информация:</h3>
           <div class="box-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+              lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+              viverra maecenas</p>
           </div>
         </div>
       </div>
@@ -925,9 +946,36 @@
   </footer>
 </div>
 
+<!--modal-->
+<div class="modal__div" id="modal-news">
+  <div class="modal__wrapper">
+    <div class="modal__close"></div>
+    <h2>Групповой аутоторинг глазами современников</h2>
+
+    <div class="modal__body">
+      <div class="modal-date">12 февраля 2020 | 0 комментариев</div>
+
+      <div class="row">
+        <div class="modal-img"><img src="img/img1.jpg" alt="">
+          <span class="name-img">lorem lorem</span>
+        </div>
+        <div class="box-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium blanditiis cum labore natus
+            nihil obcaecati quam rem repellat reprehenderit, sequi sint, vitae? Excepturi numquam placeat tempore.
+            Accusantium, molestias, ut.</p>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-accent">Подробнее</a>
+    </div>
+  </div>
+</div>
+<!-- Пoдлoжкa -->
+<div class="overlay"></div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.webticker/3.0.0/jquery.webticker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 <script src="js/common.js"></script>
 
