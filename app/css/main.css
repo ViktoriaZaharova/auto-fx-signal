@@ -2265,6 +2265,114 @@ th {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg); }
 
+.balance {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 5px;
+  background: #195ddc;
+  color: #fff;
+  padding: 16px 20px 17px 19px; }
+  .balance .btn {
+    max-width: 169px;
+    height: 45px;
+    border-radius: 8px; }
+
+.balance-val {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 24px;
+  font-weight: bold; }
+  .balance-val span {
+    margin: 0 0 0 19px; }
+
+.bg-blue {
+  background: #195ddc; }
+
+.box-color {
+  margin: 0 0 20px;
+  width: 100%;
+  border-radius: 5px; }
+
+.box-color-row {
+  height: 60px;
+  max-width: 448px; }
+
+.box-color-block {
+  max-width: 120px;
+  height: 120px;
+  margin: 0 20px 20px 0; }
+  .box-color-block:last-child {
+    margin: 0 0 20px; }
+
+.box-color-block-min {
+  height: 100px;
+  max-width: 100px; }
+
+.box-color-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.box-figure {
+  margin: 60px 0 0; }
+
+.box-statistic {
+  width: 100%;
+  background: #fff;
+  padding: 15px 22px 25px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 14.9px 3.1px rgba(156, 156, 156, 0.19);
+          box-shadow: 0 0 14.9px 3.1px rgba(156, 156, 156, 0.19);
+  margin: 40px 0 0; }
+  .box-statistic h3 {
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    margin: 0 0 14px; }
+
+.label-link {
+  position: relative;
+  margin: 0; }
+  .label-link input {
+    border: none;
+    border-radius: 22.5px;
+    background-color: #f2f2f2;
+    height: 45px;
+    color: #195ddc;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; }
+  .label-link .svg-icon {
+    width: 20px;
+    height: 19px;
+    right: 24px;
+    fill: #000; }
+
+.btn-copy {
+  cursor: pointer; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1340px) {
@@ -2428,7 +2536,20 @@ th {
     .form-cabinet-edit:last-child {
       margin: 0; }
   .box-way {
-    margin: 36px 0 0; } }
+    margin: 36px 0 0; }
+  .balance {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 28px 17px 31px; }
+    .balance .btn {
+      max-width: none;
+      margin: 30px auto 0; } }
 
 @media only screen and (max-width: 810px) {
   .header-top {
@@ -2666,7 +2787,22 @@ th {
       font-size: 28px; }
     .authorisation-section .logo {
       margin: 12px 0 0;
-      max-width: 108px; } }
+      max-width: 108px; }
+  .title-description {
+    margin: 0 0 33px; }
+  .box-figure {
+    margin: 30px 0 0; }
+  .box-color {
+    margin: 0 0 15px; }
+  .box-color-block {
+    margin: 0 15px 15px 0; }
+  .box-statistic {
+    margin: 15px 0 0;
+    padding: 15px 8px 25px 10px; }
+    .box-statistic h3 {
+      font-size: 16px; }
+  .label-link input {
+    padding: 0 50px 0 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2689,7 +2825,9 @@ th {
     height: 129px; }
   .video-box .btn-play {
     width: 21px;
-    height: 23px; } }
+    height: 23px; }
+  .balance-val span {
+    margin: 0 0 0 17px; } }
 
 @media only screen and (max-width: 480px) {
   header .logo {
@@ -2715,7 +2853,9 @@ th {
   .box-subscribe-item {
     padding: 25px 9px 19px 11px; }
   .col-3 {
-    width: 50%; } }
+    width: 50%; }
+  .balance-val {
+    font-size: 22px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px) {
@@ -2726,7 +2866,11 @@ th {
   .timer-sales p {
     padding: 0 10px;
     font-size: 12px;
-    margin: -10px auto 20px; } }
+    margin: -10px auto 20px; }
+  .balance-val {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media only screen and (max-width: 360px) {
   h1 {
