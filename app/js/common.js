@@ -26,7 +26,21 @@ $('.reviews-slider').slick({
        '\t\t\tl236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"/>\n' +
        '\t</g>\n' +
        '</g>\n' +
-       '</svg>\n</button>'
+       '</svg>\n</button>',
+   responsive: [
+      {
+         breakpoint: 1080,
+         settings: {
+            slidesToShow: 2,
+         }
+      },
+      {
+         breakpoint: 768,
+         settings: {
+            slidesToShow: 1,
+         }
+      }
+   ]
 });
 
 // accordeon

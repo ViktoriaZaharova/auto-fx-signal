@@ -854,6 +854,7 @@ main {
 
 .to-start-box__icon {
   width: 100px;
+  min-width: 100px;
   height: 100px;
   background: #195ddc;
   display: -webkit-box;
@@ -870,6 +871,9 @@ main {
   border-radius: 20px;
   -webkit-box-shadow: 0 0 7.4px 0.6px rgba(136, 136, 136, 0.15);
           box-shadow: 0 0 7.4px 0.6px rgba(136, 136, 136, 0.15); }
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0; }
 
 .question {
   padding: 117px 0; }
@@ -2090,12 +2094,40 @@ th {
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1340px) {
+  .slick-prev {
+    left: -9px; }
+  .slick-next {
+    right: -9px; }
+  .slick-arrow {
+    width: 50px;
+    height: 50px;
+    padding: 15px 21px 17px 19px; } }
+
 @media only screen and (max-width: 1200px) {
   .advantages-img {
     width: 500px; }
   .advantages-content {
     width: calc(100% - 500px);
-    padding: 0 30px 0 0; } }
+    padding: 0 30px 0 0; }
+  .partners-content {
+    max-width: 500px; }
+  .partners-percent {
+    width: 420px;
+    height: 420px; }
+  .circle1 {
+    width: 320px;
+    height: 320px; }
+  .reviews {
+    padding: 60px 0; }
+  .sales {
+    padding: 160px 0 37px; }
+  .sales-img {
+    max-width: 400px; }
+  .sales-content {
+    width: calc(100% - 400px); }
+  .footer-info {
+    max-width: 310px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -2123,9 +2155,71 @@ th {
   .advantages-img {
     width: 400px; }
   .advantages-content {
-    width: calc(100% - 400px); } }
+    width: calc(100% - 400px); }
+  .question {
+    padding: 60px 0; }
+  .partners {
+    padding: 83px 0;
+    background-position: left top; }
+  .partners-percent {
+    width: 250px;
+    height: 250px; }
+  .circle1 {
+    width: 210px;
+    height: 210px; }
+  .circle2 {
+    width: 180px;
+    height: 180px; }
+  .partners-item {
+    width: 140px;
+    height: 140px;
+    font-size: 40px; }
+  .partners-content {
+    max-width: 480px; }
+  .reviews {
+    padding: 65px 0; } }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 940px) {
+  .sales-content {
+    padding: 0;
+    width: 100%;
+    margin: 0 0 30px; }
+    .sales-content h2 {
+      text-align: center; }
+    .sales-content .btn {
+      margin: 0 auto; }
+  .timer-sales {
+    margin: 26px auto 32px; }
+  .sales-img {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto; }
+  .callback-form {
+    max-width: 375px;
+    margin: 0 auto 32px; }
+  footer {
+    padding: 60px 0 50px; }
+    footer .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    footer .logo {
+      margin: 30px auto 23px; }
+  .footer-menu {
+    display: none; }
+  .footer-box {
+    width: 100%; }
+  .copyright {
+    text-align: center;
+    font-size: 12px; }
+  .footer-info {
+    max-width: none; } }
+
 @media only screen and (max-width: 810px) {
   .header-top {
     display: none; }
@@ -2201,7 +2295,73 @@ th {
       margin: 0 auto 31px; }
   .stages-word-box {
     width: 50%;
-    margin: 0 0 32px; } }
+    margin: 0 0 32px; }
+  .result {
+    padding: 100px 0; }
+    .result .box-text {
+      margin: 32px auto 30px; }
+    .result h2 {
+      text-align: center; }
+  .tariffs {
+    padding: 60px 0; }
+    .tariffs .box-text {
+      margin: 27px auto 30px; }
+  .tariffs-box {
+    margin: 0 0 19px;
+    -webkit-box-shadow: 0 0 23px 2px rgba(136, 136, 136, 0.5);
+            box-shadow: 0 0 23px 2px rgba(136, 136, 136, 0.5); }
+  .to-start {
+    padding: 100px 0 50px;
+    background-position: left top; }
+    .to-start h2 {
+      margin: 0 0 28px; }
+  .to-start__img {
+    width: 1259px;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    left: 0; }
+  .to-start-box {
+    margin: 0 0 29px; }
+    .to-start-box p {
+      max-width: none; }
+  .question h2 {
+    margin: 0 0 28px; }
+  .panel_heading {
+    padding: 20px 0; }
+  .partners-content {
+    max-width: none;
+    text-align: center;
+    margin: 0 0 29px; }
+    .partners-content .box-text {
+      margin: 31px auto 30px;
+      text-align: center; }
+    .partners-content .btn {
+      margin: 0 auto; }
+  .partners-percent {
+    margin: 0 -50px 5px auto;
+    width: 244px;
+    height: 244px; }
+  .circle2 {
+    width: 133px;
+    height: 133px; }
+  .circle1 {
+    width: 208px;
+    height: 208px; }
+  .partners-item {
+    width: 99px;
+    height: 99px;
+    font-size: 30px; }
+  .partners {
+    background: url("../img/bg4-mobile.png") no-repeat right top;
+      background-size: cover;
+    padding: 83px 0 0; }
+  .reviews .btn {
+    margin: 29px auto 0; }
+  .reviews-box {
+    max-width: none;
+    padding: 23px 64px 30px 55px; }
+  .reviews .box-text {
+    margin: 28px auto 29px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
@@ -2210,13 +2370,38 @@ th {
   .about-box__body p {
     max-width: none; }
   .stages-word-box {
-    width: 100%; } }
+    width: 100%; }
+  .block_title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start; }
+    .block_title .svg-icon {
+      margin: 9px 0 0 auto; } }
 
 @media only screen and (max-width: 480px) {
   header .logo {
-    max-width: 107px; } }
+    max-width: 107px; }
+  .countdown-time {
+    font-size: 75px; }
+  .countdown-dots {
+    font-size: 75px; } }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 380px) {
+  .countdown-time {
+    font-size: 55px; }
+  .countdown-dots {
+    font-size: 55px; }
+  .timer-sales p {
+    padding: 0 10px;
+    font-size: 12px;
+    margin: -10px auto 20px; } }
+
 @media only screen and (max-width: 360px) {
   h1 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .tariffs-box {
+    padding: 50px 40px; } }
