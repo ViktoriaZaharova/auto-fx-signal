@@ -1382,7 +1382,8 @@ footer .logo {
       margin: 24px auto; }
   .authorisation-box h3 {
     font-size: 24px;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: normal; }
     .authorisation-box h3 a {
       display: inline; }
   .authorisation-box .btn {
@@ -2351,7 +2352,9 @@ th {
   .partners-content {
     max-width: 480px; }
   .reviews {
-    padding: 65px 0; } }
+    padding: 65px 0; }
+  .authorisation-content {
+    padding: 40px 20px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 950px) {
@@ -2641,7 +2644,29 @@ th {
   .form-cabinet textarea {
     height: 173px; }
   .form-cabinet label {
-    margin: 0 0 15px; } }
+    margin: 0 0 15px; }
+  .authorisation-box {
+    width: 100%;
+    padding: 0 0 80px; }
+    .authorisation-box .box-text {
+      margin: 82px auto 0; }
+    .authorisation-box .btn {
+      max-width: 224px; }
+  .authorisation-content {
+    width: 100%;
+    padding: 60px 0; }
+    .authorisation-content:before {
+      left: -20px; }
+    .authorisation-content .consent {
+      margin: 40px auto 0; }
+  .authorisation-section {
+    background: url("../img/bg-6-mob.jpg") no-repeat center;
+      background-size: cover; }
+    .authorisation-section h1 {
+      font-size: 28px; }
+    .authorisation-section .logo {
+      margin: 12px 0 0;
+      max-width: 108px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
