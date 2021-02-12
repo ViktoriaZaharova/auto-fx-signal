@@ -1547,6 +1547,18 @@ footer .logo {
   color: #fff;
   padding: 10px 13px 300px 0; }
 
+.sidebar-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .time-box {
   text-align: center;
   margin: 42px 0 42px; }
@@ -2232,15 +2244,13 @@ th {
     fill: #fff; }
 
 .btn-close-sidebar {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  right: 10px;
-  top: 10px; }
+  width: 16px;
+  height: 16px;
+  position: relative; }
   .btn-close-sidebar:before, .btn-close-sidebar:after {
     content: '';
     position: absolute;
-    left: 10px;
+    left: 8px;
     top: 0;
     width: 1px;
     height: 100%;
@@ -2378,7 +2388,24 @@ th {
     text-align: center;
     font-size: 12px; }
   .footer-info {
-    max-width: none; } }
+    max-width: none; }
+  .cabinet-content__wrap {
+    padding-left: 30px; }
+  .box-analytics {
+    margin: 31px 0 0; }
+  .table-wrapper {
+    overflow-x: auto;
+    padding: 15px 10px 22px 15px; }
+    .table-wrapper::-webkit-scrollbar-thumb:horizontal {
+      background: #195ddc;
+      border-radius: 3px; }
+    .table-wrapper::-webkit-scrollbar {
+      height: 7px; }
+    .table-wrapper::-webkit-scrollbar-track {
+      background: #f0f4f6;
+      border-radius: 2px; }
+  .table-scroll {
+    min-width: 800px; } }
 
 @media only screen and (max-width: 810px) {
   .header-top {
@@ -2532,7 +2559,7 @@ th {
     display: none;
     height: 100%;
     overflow-y: auto;
-    padding: 20px;
+    padding: 20px 12px;
     position: fixed;
     background: #195ddc;
     z-index: 3;
@@ -2540,6 +2567,13 @@ th {
     width: 100%;
     top: 0;
     left: 0; }
+  .time-box {
+    margin: 19px auto 25px; }
+  .box-text-data {
+    margin: 25px 0 24px;
+    text-align: left; }
+  .menu-sidebar li {
+    margin: 0 0 27px; }
   .cabinet {
     padding: 10px 0 67px;
     background: #fff; }
@@ -2553,7 +2587,14 @@ th {
   .btn-menu-cabinet {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex; }
+  .list-currency li a {
+    width: 65px;
+    height: 65px;
+    font-size: 12px;
+    border-radius: 10px; }
+  .box-analytics h3 {
+    font-size: 18px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 575px) {
